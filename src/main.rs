@@ -1,5 +1,5 @@
 /**
- * !Note: there is a bug in this code. Right now it only works if there is a thumbnail/images directory in the root directory
+ * !Note: there is a bug in this code. Right now it only works if there is a thumbnails/images directory in the root directory
  * save_path variable in the make_thumbnail function needs to be fixed for that
 */
 use glob::{glob_with, MatchOptions};
@@ -38,7 +38,7 @@ fn main() {
     }
 
     // create a new thumbnail directory
-    let thumbnail_dir = "thumbnail";
+    let thumbnail_dir = "thumbnails";
     // create_dir(thumbnail_dir);
 
     // println!("{:?}", file);
