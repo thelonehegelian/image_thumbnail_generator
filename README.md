@@ -2,6 +2,7 @@
 creates thumbnails of images in a directory using rayon parallel iteration
 
 !Note: there is a bug in this code. Right now it only works if there is a thumbnails/images directory in the root directory
+If there is such a directory then the thumbnails are generated successfully
 
 TODO: 
 ---
