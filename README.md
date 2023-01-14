@@ -7,4 +7,4 @@ If there is such a directory then the thumbnails are generated successfully
 TODO: 
 ---
 
-[ ] Fix save_path variable in the make_thumbnail function so files can be saved in the folder provided. To fix that Path may need be sliced
+- [ ] Fix save_path variable in the make_thumbnail function so files can be saved in the folder provided. To fix that Path may need be sliced
